@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="EMERGE Diamonds ERP" />
+  <title>EMERGE Diamonds | ERP</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(255, 255, 255, 0.08), transparent 35%),
+        linear-gradient(135deg, #111111 0%, #1d1d1d 50%, #0b0b0b 100%);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 900px;
+      text-align: center;
+      padding: 70px 30px;
+    }
+
+    .logo {
+      font-size: 42px;
+      font-weight: 700;
+      letter-spacing: 7px;
+      margin-bottom: 18px;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: #bdbdbd;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 45px;
+    }
+
+    .card {
+      max-width: 620px;
+      margin: 0 auto;
+      padding: 48px 35px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      box-shadow: 0 25px 70px rgba(0, 0, 0, 0.35);
+    }
+
+    h1 {
+      font-size: clamp(30px, 5vw, 48px);
+      line-height: 1.15;
+      margin-bottom: 18px;
+    }
+
+    .description {
+      color: #c9c9c9;
+      font-size: 17px;
+      line-height: 1.7;
+      margin-bottom: 32px;
+    }
+
+    .launch-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 190px;
+      padding: 15px 28px;
+      border-radius: 10px;
+      background: #ffffff;
+      color: #111111;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.4px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+      box-shadow: 0 10px 30px rgba(255, 255, 255, 0.12);
+    }
+
+    .launch-btn:hover {
+      transform: translateY(-2px);
+      background: #f1f1f1;
+      box-shadow: 0 14px 35px rgba(255, 255, 255, 0.18);
+    }
+
+    .launch-btn:active {
+      transform: translateY(0);
+    }
+
+    .arrow {
+      margin-left: 10px;
+      font-size: 20px;
+    }
+
+    .footer {
+      margin-top: 35px;
+      color: #777777;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 35px 10px;
+      }
+
+      .logo {
+        font-size: 30px;
+        letter-spacing: 5px;
+      }
+
+      .subtitle {
+        font-size: 12px;
+        margin-bottom: 30px;
+      }
+
+      .card {
+        padding: 38px 22px;
+      }
+
+      .description {
+        font-size: 15px;
+      }
+
+      .launch-btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <div class="logo">EMERGE</div>
+    <div class="subtitle">Diamonds</div>
+
+    <section class="card">
+      <h1>EMERGE ERP</h1>
+
+      <p class="description">
+        Manage your diamond business operations from one centralized ERP system.
+      </p>
+
+      <a
+        class="launch-btn"
+        href="https://script.google.com/a/macros/emergediamonds.com/s/AKfycbzxk4ABKqbyRhT-cj-BZH2wAzEAISxDNbmIeOWlMkY/dev"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Launch ERP
+        <span class="arrow">→</span>
+      </a>
+    </section>
+
+    <div class="footer">
+      © 2026 EMERGE Diamonds. All rights reserved.
+    </div>
+  </main>
+</body>
+</html>
